@@ -1,0 +1,69 @@
+@import url(reset.css);
+
+/**********/
+/**HEADER**/
+/**********/
+
+.block-header > h1 {
+  color: deeppink;
+}
+.big-title ~ .list {
+  color: rgb(0, 183, 255);
+}
+
+span {
+  color: lawngreen;
+}
+.olive {
+  color: olive;
+}
+.list > li > mark {
+  color: black;
+}
+
+/********/
+/**MAIN**/
+/********/
+.container * {
+  color: sandybrown;
+}
+h2.red {
+  color: red;
+}
+
+.title + p {
+  color: blue;
+}
+
+.container .text-green {
+  color: green;
+}
+
+.name {
+  color: blueviolet;
+}
+
+.some-block [class*="ame"] {
+  color: blue;
+}
+
+.title ~ p .link {
+  color: yellow;
+}
+
+.link > mark {
+  color: white;
+}
+
+.some-color,
+.green {
+  color: green;
+}
+
+/* #main-content .image + * {
+	color: black;
+} */
+
+#main-content [class*="age"] + * {
+  color: black;
+}
