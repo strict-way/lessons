@@ -60,6 +60,10 @@ h2.red {
   color: green;
 }
 
+.title.green {
+  color: greenyellow;
+}
+
 /* #main-content .image + * {
 	color: black;
 } */
