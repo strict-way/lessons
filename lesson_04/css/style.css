@@ -1,0 +1,144 @@
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("reset.css");
+
+/**********/
+/**HEADER**/
+/**********/
+
+body {
+  font-family: "Engine";
+  font-size: 25px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Ustroke";
+  font-size: 30px;
+}
+
+.item {
+  font-family: "Solena";
+  font-size: 28px;
+}
+
+.container .image + p {
+  /* letter-spacing: 1.7px; */
+  white-space: nowrap;
+}
+
+.heading {
+  color: #0000ff9d;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-align: center;
+}
+
+.subheading,
+.list {
+  text-align: right;
+}
+
+.subheading {
+  color: cornflowerblue;
+  text-shadow: 2px 8px 4px #0000ff63;
+}
+
+.list {
+  color: coral;
+  text-shadow: 3px 9px 7px rgba(0, 0, 0, 0.726);
+}
+.item {
+  text-transform: capitalize;
+  line-height: 1.71; /* 20/28 */
+}
+
+/**********/
+/***MAIN***/
+/**********/
+
+h3,
+h4 {
+  text-align: center;
+  color: darkmagenta;
+  text-shadow: 13px 10px 12px rgba(241, 16, 147, 0.658),
+    -8px -5px 12px rgba(3, 255, 87, 07);
+
+  text-transform: lowercase; /*але за замовчуванням шрифт робить великі літери*/
+}
+
+.content-list {
+  text-align: center;
+}
+
+.link {
+  color: blue;
+  line-height: 35px;
+  text-shadow: 7px 7px 5px rgb(229, 255, 0);
+}
+.block-content > p {
+  word-spacing: 15px;
+}
+
+.block-content > p {
+  text-align: justify;
+  /* text-align: center; */
+  text-shadow: 3px 3px 7px rgb(0, 0, 0), -3px -3px 5px rgba(0, 4, 255, 0.9),
+    15px 15px 12px rgb(0, 0, 0);
+  color: white;
+}
+
+/**********/
+/**FOOTER**/
+/**********/
+
+.block-portfolio {
+  font-family: "Work Sans", sans-serif;
+}
+
+.title-user {
+  color: #132238;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.31; /* 50/38 */
+}
+
+.block-portfolio p {
+  color: #556070;
+  font-size: 18px;
+  line-height: 1.33; /* 24/18 */
+}
+
+.block-business {
+  color: #474464;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.75; /* 42/24 */
+}
+
+.title-about {
+  color: #1e1b39;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1.079; /* 95/88 */
+}
+
+.block-landing {
+  color: #505f98;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.66; /* 30/18 */
+}
+.title-product {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32; /* 66/50 */
+  letter-spacing: 1px;
+}
