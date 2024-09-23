@@ -1,0 +1,263 @@
+/*
+  LandingPageTemplate
+  Шрифт Roboto
+*/
+@import url("fonts.css");
+/*
+  DarkThemeWebsite
+  Шрифт Manrope
+*/
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+@import url("reset.css");
+
+body {
+}
+
+/**********/
+/**HEADER**/
+/**********/
+.header {
+  margin-block-end: 50px;
+}
+.dark-box {
+  background-color: #141414;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+.container {
+  /* margin: 0 auto; */
+  margin-inline: auto;
+
+  /* width: 1596px; */
+  /* max-width: 1626px; */
+  max-inline-size: 1626px;
+  padding-inline: 15px;
+
+  /* padding-top: 30px; */
+  padding-block-start: 30px;
+
+  color: #fff;
+  line-height: 1.5; /* 27/18 */
+}
+
+.top-content {
+  /* padding-block: 80px; */
+  margin-block-end: 80px;
+
+  max-inline-size: 1297px;
+  /* max-width: 1297px */
+}
+
+/* Можливо Ярик додасть ще якийсь параграф, а там буде якраз відступ */
+.top-content p {
+  margin-block-end: 10px;
+}
+
+.big-title {
+  /* margin-bottom: 10px; */
+  margin-block-end: 10px;
+
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.line-block {
+  background-color: #d9d9d9;
+  height: 46px;
+
+  /* margin-bottom: 80px; */
+  margin-block-end: 80px;
+}
+
+.middle-content {
+  /* margin-bottom: 30px; */
+  margin-block-end: 30px;
+}
+
+.sections {
+  margin-inline: -15px;
+  font-size: 0;
+}
+.section {
+  max-width: 33.333%;
+  display: inline-block;
+  vertical-align: top;
+
+  /* margin-inline-end: 30px; */
+  margin-bottom: 30px;
+  padding-inline: 15px;
+}
+.content {
+  font-size: 20px;
+  padding: 50px;
+  background-color: #0f0f0f;
+}
+.content > p {
+  color: #999;
+}
+.top-block {
+  /* margin-bottom: 30px; */
+  margin-block-end: 30px;
+  font-size: 0;
+}
+
+.block-frame,
+.title {
+  vertical-align: middle;
+  display: inline-block;
+}
+.block-frame {
+  width: 72px;
+  padding: 16px;
+  text-align: center;
+  background-color: #141414;
+
+  /* margin-right: 16px; */
+  margin-inline-end: 16px;
+}
+.image {
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5; /* 36/24 */
+}
+
+/**********/
+/***MAIN***/
+/**********/
+
+.landing-box {
+}
+.container {
+}
+.block-landing {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.66; /* 30/18 */
+
+  /* max-width: 540px; */
+  max-inline-size: 540px;
+
+  margin-block-end: 50px;
+}
+
+.landing-wrapper {
+  /* margin-bottom: 69px; */
+  margin-block-end: 69px;
+}
+
+.landing-wrapper > p {
+  color: #505f98;
+  margin-bottom: 14px;
+}
+
+.landing-title {
+  color: #091133;
+  font-size: 50px;
+  line-height: 1.32; /* 66/50 */
+  font-weight: 500;
+
+  /* margin-bottom: 20px; */
+  margin-block-end: 20px;
+}
+
+.buttons {
+  font-size: 0;
+}
+.link {
+  /* margin-right: 30px; */
+  margin-inline-end: 30px;
+
+  /* margin-bottom: 10px; */
+  margin-block-end: 10px;
+
+  border: 2px solid #091133;
+
+  /* min-width: 189px; */
+  min-inline-size: 189px;
+
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  padding-block: 5px;
+
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding-inline: 10px;
+
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6; /* 26/16 */
+}
+.color-blue {
+  background-color: #111b47;
+}
+.text-blue {
+  color: #091133;
+}
+
+/**************************/
+.block-design {
+  max-width: 520px;
+}
+.block-wrap {
+  margin-block-end: 70px;
+}
+.block-wrap > p {
+  color: #6f7cb2;
+  line-height: 1.62; /* 26/16 */
+
+  /* margin-bottom: 10px; */
+  margin-block-end: 10px;
+}
+.title-desing {
+  font-family: "Roboto", sans-serif;
+  color: #091133;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33; /* 48/36 */
+
+  /* margin-bottom: 16px; */
+  margin-block-end: 16px;
+}
+.list {
+  font-size: 0;
+  margin-inline: -15px;
+}
+.item {
+  vertical-align: top;
+  width: 50%;
+  display: inline-block;
+
+  /* max-inline-size: 245px; */
+
+  padding-inline: 15px;
+  margin-block-end: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.5; /* 18/12 */
+  color: #5d6970;
+}
+
+.image-item {
+  margin-block-end: 14px;
+}
+.subtitle {
+  color: #091133;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625; /* 26/16 */
+  margin-block-end: 6px;
+}
+
+/**********/
+/**FOOTER**/
+/**********/
+.block-end span {
+  color: red;
+  font-size: 25px;
+}
