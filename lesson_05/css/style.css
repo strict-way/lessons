@@ -62,15 +62,6 @@ body {
   font-size: 38px;
   font-weight: 700;
 }
-
-.line-block {
-  background-color: #d9d9d9;
-  height: 46px;
-
-  /* margin-bottom: 80px; */
-  margin-block-end: 80px;
-}
-
 .middle-content {
   /* margin-bottom: 30px; */
   margin-block-end: 30px;
