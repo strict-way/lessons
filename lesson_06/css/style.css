@@ -113,13 +113,12 @@
   margin-block-end: 100px;
 }
 .dark-cover {
-  
-  background: 
-    url("../img/abstract-image-center.png") center 195px / 470px auto no-repeat,
-    linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%), 
-    linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
+  background: url("../img/abstract-image-center.png") center 195px / 470px auto
+      no-repeat,
+    linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%),
+    linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
     url("../img/cover.png") top / auto 860px repeat-x;
-    background-color: #141414;
+  background-color: #141414;
 }
 
 .dark-content {
@@ -171,4 +170,11 @@
   min-height: 20px;
   padding-inline-start: 32px;
   background: url("../img/arrow-right.svg") left / 28px no-repeat;
+}
+
+.title-footer {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
 }
