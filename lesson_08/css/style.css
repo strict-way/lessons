@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("reset.css");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden; /*clip*/
+
+  background-color: #fdf0e9;
+}
+
+[class*="container"] {
+  padding-inline: 15px;
+  max-width: 1200px;
+  margin-inline: auto;
+  font-family: "Epilogue", sans-serif;
+}
+.header {
+  margin-bottom: 20px;
+}
+
+.title-header {
+  padding-block: 40px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #f3aab6;
+  text-shadow: 0px -5px 5px rgba(255, 255, 255, 0.4),
+    0px 5px 5px rgba(255, 255, 255, 0.4);
+}
+
+.title-header span {
+  display: inline-block;
+  padding: 10px;
+  background-color: #28293e;
+  box-shadow: 0px 0px 30px 10px #c48690;
+  border-block: 10px solid #5e6191;
+  border-inline: 8px solid #f3aab6;
+  border-start-start-radius: 40px;
+  border-end-end-radius: 40px;
+}
+
+.page {
+  margin-bottom: 20px;
+}
+.block-images {
+}
+.container {
+  
+}
+.list {
+  box-shadow: 0px 0px 20px 5px #c26baf;
+  color: #fff;
+  background-color: #5e6191;
+  display: inline-block;
+  padding: 35px;
+  border: 5px solid #f3aab6;
+  /* border-start-start-radius: 60px;
+  border-end-end-radius: 60px; */
+  border-radius: 60px;
+  vertical-align: top;
+  font-size: 22px;
+}
+.list:not(:last-child) {
+  margin-inline-end: 20px;
+  margin-block-end: 30px;
+}
+.item {
+}
+.item:not(:last-child) {
+  margin-block-end: 25px;
+}
+.image {
+  vertical-align: middle;
+  /* max-width: 48px; */
+}
+/* .image.size {
+  max-width: 148px;
+}
+.max-size img {
+  max-width: 147px;
+} */
+
+.preview-video img {
+  vertical-align: middle;
+  max-width: 570px;
+  border-radius: 6px;
+}
+.preview-about-me img {
+  padding-bottom: 10px;
+  border-radius: 6px;
+  max-width: 1170px;
+}
